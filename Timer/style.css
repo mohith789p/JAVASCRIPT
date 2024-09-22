@@ -1,0 +1,41 @@
+.timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 180px;
+  height: 50px;
+  font-size: 40px;
+  font-weight: lighter;
+  font-style: italic;
+  border: 2px solid blue;
+  color: blueviolet;
+}
+#display {
+  font-size: 50px;
+  font-weight: bold;
+  font-style: oblique;
+  color: darkgreen;
+}
+button {
+  height: 50px;
+  width: 80px;
+  background-color: aqua;
+  border-radius: 10%;
+  border-color: blue;
+  color: blue;
+  margin: 10px;
+  font-size: 25px;
+}
+label {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  color: purple;
+}
+row {
+  display: flex;
+  flex-direction: row;
+}
