@@ -1,0 +1,39 @@
+.case {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  width: 80%;
+  height: 50px;
+  font-size: 30px;
+  font-weight: lighter;
+  font-style: italic;
+  border: 2px solid blue;
+  color: green;
+}
+#result {
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  color: darkgreen;
+}
+button {
+  height: 30px;
+  background-color: aqua;
+  border-radius: 10%;
+  border-color: blue;
+  color: green;
+  margin: 10px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.string {
+  font-size: 30px;
+  font-weight: normal;
+  color: darkgreen;
+}
