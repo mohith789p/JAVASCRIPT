@@ -1,4 +1,5 @@
-.timer {
+.timer,
+.count {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,6 +13,7 @@ input {
   font-style: italic;
   border: 2px solid blue;
   color: blueviolet;
+  background: transparent;
 }
 #display {
   font-size: 50px;
@@ -38,4 +40,14 @@ label {
 row {
   display: flex;
   flex-direction: row;
+}
+h1 {
+  color: goldenrod;
+  justify-content: flex-start;
+}
+.count {
+  border: 2px solid #efefef;
+  background-position: center;
+  background-size: 20pc;
+  padding: 10%;
 }

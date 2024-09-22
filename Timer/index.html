@@ -8,15 +8,17 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>Timer</h1>
     <div class="timer">
-      <label for="time">Countdown (in seconds): </label>
-      <input type="number" id="time" min="1" />
-      <div class="row">
-        <button id="start">Start</button>
-        <button id="reset">Reset</button>
+      <div class="count">
+        <h1>Timer</h1>
+        <label for="time">Countdown (in seconds): </label>
+        <input type="number" id="time" min="1" />
+        <div class="row">
+          <button id="start">Start</button>
+          <button id="reset">Reset</button>
+        </div>
+        <p id="display">00:00</p>
       </div>
-      <p id="display">00:00</p>
     </div>
   </body>
 </html>
