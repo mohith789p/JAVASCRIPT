@@ -1,3 +1,6 @@
+body {
+  background-color: grey;
+}
 .timer,
 .count {
   display: flex;
@@ -14,12 +17,13 @@ input {
   border: 2px solid blue;
   color: blueviolet;
   background: transparent;
+  margin: 15px;
 }
 #display {
   font-size: 50px;
   font-weight: bold;
   font-style: oblique;
-  color: darkgreen;
+  color: chartreuse;
 }
 button {
   height: 50px;
@@ -43,11 +47,9 @@ row {
 }
 h1 {
   color: goldenrod;
-  justify-content: flex-start;
 }
 .count {
   border: 2px solid #efefef;
-  background-position: center;
-  background-size: 20pc;
-  padding: 10%;
+  background-color: rgb(25, 25, 25);
+  padding: 5%;
 }
