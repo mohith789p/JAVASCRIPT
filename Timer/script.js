@@ -16,6 +16,7 @@ start.addEventListener("click", () => {
       display.style.color = "red";
       display.textContent = "Time's Up!";
     } else {
+      display.style.color = "chartreuse";
       const minutes = Math.floor(seconds / 60);
       const remSeconds = seconds % 60;
       display.textContent =

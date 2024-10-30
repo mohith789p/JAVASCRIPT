@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="calc.png" type="image/png" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="calc">
+      <div class="cal">
+        <input type="text" class="out" id="display" placeholder="0" disabled />
+        <div class="key">
+          <div class="row">
+            <button class="opt" onclick="clearDisplay()">AC</button>
+            <button class="opt" onclick="backspace()">
+              <img src="back.jpg" id="back" alt="back" />
+            </button>
+            <button class="opt" onclick="appendToDisplay('%')">%</button>
+            <button class="opt" onclick="appendToDisplay('/')">/</button>
+          </div>
+          <div class="row">
+            <button class="num" onclick="appendToDisplay('7')">7</button>
+            <button class="num" onclick="appendToDisplay('8')">8</button>
+            <button class="num" onclick="appendToDisplay('9')">9</button>
+            <button class="opt" onclick="appendToDisplay('*')">*</button>
+          </div>
+          <div class="row">
+            <button class="num" onclick="appendToDisplay('4')">4</button>
+            <button class="num" onclick="appendToDisplay('5')">5</button>
+            <button class="num" onclick="appendToDisplay('6')">6</button>
+            <button class="opt" onclick="appendToDisplay('-')">-</button>
+          </div>
+          <div class="row">
+            <button class="num" onclick="appendToDisplay('1')">1</button>
+            <button class="num" onclick="appendToDisplay('2')">2</button>
+            <button class="num" onclick="appendToDisplay('3')">3</button>
+            <button class="opt" onclick="appendToDisplay('+')">+</button>
+          </div>
+          <div class="row">
+            <button class="num" onclick="appendToDisplay('-')">+/-</button>
+            <button class="num" onclick="appendToDisplay('0')">0</button>
+            <button class="num" onclick="appendToDisplay('.')">.</button>
+            <button class="ans" onclick="calculate()">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
