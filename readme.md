@@ -1,9 +1,11 @@
 > **Question**: What does the following code do?
 
-````python
+```python
 #sample code
 print('Hello world!')
+```
+
 ```Output
 #sample output
 Hello world!
-````
+```
